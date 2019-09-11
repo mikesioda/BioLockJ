@@ -371,8 +371,6 @@ Resources:
       ComputeEnvironmentOrder:
         - Order: 1
           ComputeEnvironment: !Ref OnDemandComputeEnv
-        - Order: 2
-          ComputeEnvironment: !Ref SpotComputeEnv
       State: ENABLED
       Priority: 10
       JobQueueName: !Join 
